@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style type="text/css">
+        </style>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="toolbar_style.css">
+        <!-- COPY/PASTE <link rel="stylesheet" href="image-placement.css"> HERE -->
+        <script src="https://awwapp.com/static/widget/js/aww3.min.js"></script>
+        <script src="sample_toolbar.js"></script>
+      </head>
+      <body>
+        <div id="aww-wrapper" class="aww">
+          <!-- COPY/PASTE sample_toolbar.html HERE -->
+          <!-- COPY/PASTE image-placement.html HERE -->
+        </div>
+        <script type="text/javascript">
+          var aww = new AwwBoard('#aww-wrapper', {
+            /* make sure you're using your own key here */
+            apiKey: '<YOUR-API-KEY>',
+            /* put a unique text here */
+            boardLink: '<PUT-UNIQUE-STRING-HERE>',
+            multiPage: true,
+            sendUserPointer: true,
+            showUserPointers: true
+          });
+          initToolbar();
+        </script>
+      </body>
+</html>
